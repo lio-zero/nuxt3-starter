@@ -1,5 +1,16 @@
 {
   // https://v3.nuxtjs.org/concepts/typescript
   // https://v3.nuxtjs.org/guide/directory-structure/tsconfig
-  "extends": "./.nuxt/tsconfig.json"
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+  },
+  "exclude": [
+    "dist",
+    "node_modules"
+  ],
 }

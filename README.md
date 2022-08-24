@@ -1,4 +1,4 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Starter
 
 [Quick Start](https://v3.nuxtjs.org/getting-started/quick-start)
 

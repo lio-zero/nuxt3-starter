@@ -1,21 +1,28 @@
 {
   "name": "nuxt3-starter",
+  "private": true,
   "description": "A better nuxt3 starter template",
   "author": {
     "name": "lio-zero",
     "email": "licroning@163.com",
     "url": "https://github.com/lio-zero"
   },
-  "private": true,
   "license": "MIT",
   "scripts": {
     "dev": "nuxi dev -o --port 4399",
     "build": "nuxi build",
     "start": "node .output/server/index.mjs",
     "generate": "nuxi generate",
-    "preview": "nuxi preview"
+    "preview": "nuxi preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "up": "taze major -I"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.8"
+    "@antfu/eslint-config": "^0.26.1",
+    "eslint": "^8.22.0",
+    "nuxt": "3.0.0-rc.8",
+    "taze": "^0.7.6",
+    "typescript": "^4.7.4"
   }
 }
