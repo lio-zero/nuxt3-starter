@@ -1,0 +1,21 @@
+{
+  "name": "nuxt3-starter",
+  "description": "A better nuxt3 starter template",
+  "author": {
+    "name": "lio-zero",
+    "email": "licroning@163.com",
+    "url": "https://github.com/lio-zero"
+  },
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxi dev -o --port 4399",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.8"
+  }
+}
