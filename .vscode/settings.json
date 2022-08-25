@@ -1,6 +1,6 @@
 {
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -12,14 +12,25 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[markdown]": {
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
   "prettier.enable": false,
+  "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
     "source.fixAll": false,
     "source.fixAll.eslint": true
   },
   "cSpell.words": [
-    "Nuxt"
+    "Nuxt",
+    "nuxtjs",
+    "vueuse",
+    "unocss",
+    "attributify",
+    "pinia",
+    "taze",
+    "antfu",
+    "iconify",
+    "nuxi",
+    "unplugin"
   ]
 }

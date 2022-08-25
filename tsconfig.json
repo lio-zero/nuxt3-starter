@@ -7,10 +7,10 @@
     "esModuleInterop": true,
     "noUnusedLocals": true,
     "strictNullChecks": true,
-    "forceConsistentCasingInFileNames": true,
+    "forceConsistentCasingInFileNames": true
   },
   "exclude": [
     "dist",
     "node_modules"
-  ],
+  ]
 }

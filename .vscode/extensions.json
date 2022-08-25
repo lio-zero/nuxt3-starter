@@ -4,6 +4,10 @@
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
     "antfu.iconify",
-    "heybourn.headwind"
+    "antfu.unocss",
+    "csstools.postcss",
+    "lokalise.i18n-ally",
+    "antfu.goto-alias",
+    "streetsidesoftware.code-spell-checker"
   ]
 }
