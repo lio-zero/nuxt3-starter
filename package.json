@@ -18,9 +18,13 @@
     "lint:fix": "eslint . --fix",
     "up": "taze major -I"
   },
+  "dependencies": {
+    "pinia": "^2.0.20"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^0.26.1",
     "@iconify/json": "^2.1.97",
+    "@pinia/nuxt": "^0.4.1",
     "@unocss/nuxt": "^0.45.12",
     "@vueuse/core": "^9.1.1",
     "@vueuse/nuxt": "^9.1.1",

@@ -12,9 +12,8 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     'unplugin-icons/nuxt',
     '@vueuse/nuxt',
+    '@pinia/nuxt',
   ],
-  alias: {
-  },
   css: [
     '/styles/main.css',
   ],
