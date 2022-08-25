@@ -13,6 +13,17 @@ export default defineNuxtConfig({
     'unplugin-icons/nuxt',
     '@vueuse/nuxt',
     '@pinia/nuxt',
+    ['@nuxtjs/i18n',
+      // https://i18n.nuxtjs.org/
+      {
+        locales: [
+          { code: 'en', iso: 'en-US', file: 'en.json' },
+          { code: 'zh', iso: 'zh-CN', file: 'zh-CN.json' },
+        ],
+        defaultLocale: 'en',
+        langDir: 'locales/',
+      },
+    ],
   ],
   css: [
     '/styles/main.css',

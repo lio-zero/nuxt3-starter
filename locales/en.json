@@ -1,0 +1,5 @@
+{
+  "hi": "Hello, { desc }",
+  "toggle_dark": "Toggle dark mode",
+  "toggle_langs": "Change languages"
+}

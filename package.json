@@ -19,6 +19,7 @@
     "up": "taze major -I"
   },
   "dependencies": {
+    "@nuxtjs/i18n": "npm:@nuxtjs/i18n-edge",
     "pinia": "^2.0.20"
   },
   "devDependencies": {
