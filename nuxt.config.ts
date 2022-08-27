@@ -3,9 +3,25 @@ import Components from 'unplugin-vue-components/vite'
 import IconsResolver from 'unplugin-icons/resolver'
 
 // Nuxt 2 Migrate to Nuxt 3：https://v3.nuxtjs.org/migration/configuration
-// Nuxt Configuration Reference：https://v3.nuxtjs.org/api/configuration/nuxt.config
+// Nuxt Configuration file：https://v3.nuxtjs.org/guide/directory-structure/nuxt.config
 export default defineNuxtConfig({
+  app: {
+    head: {
+      title: 'Nuxt 3 Starter',
+      titleTemplate: '%s - Nuxt 3 Starter',
+      meta: [
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Nuxt 3 Starter',
+        },
+      ],
+      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    },
+  },
   typescript: {
+    // https://v3.nuxtjs.org/api/configuration/nuxt.config#shim
     shim: false,
   },
   modules: [
@@ -44,7 +60,6 @@ export default defineNuxtConfig({
       Components({
         dts: 'types/components.d.ts',
         resolvers: [
-          // 自动注册图标组件
           IconsResolver({
             componentPrefix: '',
           }),

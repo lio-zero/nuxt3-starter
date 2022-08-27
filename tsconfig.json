@@ -9,8 +9,9 @@
     "strictNullChecks": true,
     "forceConsistentCasingInFileNames": true,
     "types": [
-      "@nuxt/types",
-      "@nuxtjs/i18n"
+      "@nuxtjs/i18n",
+      "@pinia/nuxt",
+      "@vueuse/nuxt"
     ]
   },
   "exclude": [
