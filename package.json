@@ -20,7 +20,8 @@
   },
   "dependencies": {
     "@nuxtjs/i18n": "npm:@nuxtjs/i18n-edge",
-    "pinia": "^2.0.20"
+    "pinia": "^2.0.20",
+    "sass": "^1.54.5"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.26.1",

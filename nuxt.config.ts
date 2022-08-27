@@ -26,7 +26,7 @@ export default defineNuxtConfig({
     ],
   ],
   css: [
-    '/styles/main.css',
+    '~/styles/main.scss',
   ],
   unocss: {
     icons: true,
