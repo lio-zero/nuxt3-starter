@@ -19,14 +19,11 @@
     "prepare": "husky install",
     "up": "taze major -I"
   },
-  "dependencies": {
-    "@nuxtjs/i18n": "npm:@nuxtjs/i18n-edge",
-    "pinia": "^2.0.20",
-    "sass": "^1.54.5"
-  },
   "devDependencies": {
     "@antfu/eslint-config": "^0.26.1",
-    "@iconify/json": "^2.1.99",
+    "@iconify-json/carbon": "^1.1.7",
+    "@nuxtjs/color-mode": "^3.1.4",
+    "@nuxtjs/i18n": "npm:@nuxtjs/i18n-edge",
     "@pinia/nuxt": "^0.4.1",
     "@unocss/nuxt": "^0.45.13",
     "@vueuse/core": "^9.1.1",
@@ -35,9 +32,9 @@
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "nuxt": "3.0.0-rc.8",
+    "pinia": "^2.0.21",
+    "sass": "^1.54.5",
     "taze": "^0.7.6",
-    "typescript": "^4.8.2",
-    "unplugin-icons": "^0.14.8",
-    "unplugin-vue-components": "^0.22.4"
+    "typescript": "^4.8.2"
   }
 }
