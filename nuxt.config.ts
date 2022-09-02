@@ -3,6 +3,7 @@ import { defineNuxtConfig } from 'nuxt'
 // Nuxt 2 Migrate to Nuxt 3：https://v3.nuxtjs.org/migration/configuration
 // Nuxt Configuration file：https://v3.nuxtjs.org/guide/directory-structure/nuxt.config
 export default defineNuxtConfig({
+  srcDir: 'src',
   app: {
     head: {
       title: 'Nuxt 3 Starter',
