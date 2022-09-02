@@ -1,10 +1,8 @@
 # Nuxt 3 Starter
 
-> **WARNING**：Nuxt 3 now in RC version。Not recommended for production use.
+> **WARNING**：Nuxt 3 now in RC version. Not recommended for production use.
 >
 > [Check out the Nuxt 3 roadmap](https://v3.nuxtjs.org/community/roadmap)
-
-<!-- https://typescript.nuxtjs.org/ -->
 
 First, learn [how Nuxt 3 works](https://v3.nuxtjs.org/guide/concepts/).
 
@@ -46,6 +44,15 @@ We recommend using [VS Code](https://code.visualstudio.com/) with [Volar](https:
 ## Coding Style
 
 [ESLint](https://eslint.org/) with [@antfu/eslint-config](https://github.com/antfu/eslint-config), single quotes, no semi.
+
+Use [husky](https://github.com/typicode/husky) and [lint-staged](https://github.com/okonet/lint-staged) to verify the code before submission.
+
+The following specifications are not considered by the authors and are left to your own choice:
+
+- [prettier](https://github.com/prettier/prettier)
+- [commitlint](https://github.com/conventional-changelog/commitlint)
+- [stylelint](https://github.com/stylelint/stylelint)
+- [commitizen](https://github.com/commitizen-tools/commitizen)
 
 ## Try it now
 
