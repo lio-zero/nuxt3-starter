@@ -1,9 +1,7 @@
 {
   "recommendations": [
     "Vue.volar",
-    "Nuxt.mdc",
     "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
     "antfu.iconify",
     "antfu.unocss",
     "csstools.postcss",
