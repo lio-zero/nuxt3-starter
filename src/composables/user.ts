@@ -1,7 +1,7 @@
 import { acceptHMRUpdate, defineStore } from 'pinia'
 
 export const useUserStore = defineStore('user', () => {
-  const savedName = ref('Nuxt3 Starter')
+  const savedName = ref('')
   const previousNames = ref(new Set<string>())
 
   const usedNames = computed(() => Array.from(previousNames.value))

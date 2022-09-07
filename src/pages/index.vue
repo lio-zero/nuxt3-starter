@@ -1,6 +1,32 @@
-<script lang="ts" setup>
+<script setup lang="ts">
+const { t } = useLang()
 </script>
 
 <template>
-  <div />
+  <div>
+    <div mb-6 inline-flex text-2xl font-300 cursor-default>
+      <div flex flex-col children:mx-auto>
+        <img w-18 h-18 inline-block src="/assets/nuxt.png">
+        <span text-green5 mt--2>Nuxt 3</span>
+      </div>
+      <div
+        text="3xl gray4"
+        m="x-4 y-auto"
+        transition-all-500
+        transform
+        hover:rotate-135
+        i-carbon-add
+      />
+      <div flex flex-col children:mx-auto>
+        <img w-18 h-18 inline-block src="/assets/vite.png">
+        <span text-purple5 mt--2>Vite</span>
+      </div>
+    </div>
+
+    <p>
+      <em text-sm opacity-75>{{ t('intro.desc') }}</em>
+    </p>
+
+    <InputEntry />
+  </div>
 </template>

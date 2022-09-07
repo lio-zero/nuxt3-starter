@@ -1,7 +1,7 @@
 {
   "name": "nuxt3-starter",
   "private": true,
-  "description": "A better nuxt3 starter template",
+  "description": "A Better Nuxt 3 Starter Template",
   "author": {
     "name": "lio-zero",
     "email": "licroning@163.com",
@@ -22,6 +22,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^0.26.2",
     "@iconify-json/carbon": "^1.1.7",
+    "@iconify-json/twemoji": "^1.1.5",
     "@nuxtjs/color-mode": "^3.1.4",
     "@nuxtjs/i18n": "npm:@nuxtjs/i18n-edge",
     "@pinia/nuxt": "^0.4.1",

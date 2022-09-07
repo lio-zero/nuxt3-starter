@@ -1,0 +1,11 @@
+button:
+  back: Back
+  go: GO
+  home: Home
+  toggle_dark: Toggle dark mode
+  toggle_langs: Change languages
+intro:
+  desc: A Better Nuxt 3 Starter Template
+  hi: Hi, {name}!
+  whats-your-name: What's your name?
+not-found: Not found

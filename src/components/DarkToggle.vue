@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const color = useColorMode()
+const { t } = useLang()
 
 function toggleDark() {
   color.preference = color.value === 'dark' ? 'light' : 'dark'
@@ -7,7 +8,7 @@ function toggleDark() {
 </script>
 
 <template>
-  <button class="icon-btn !outline-none mx-2" @click="toggleDark">
+  <button class="!outline-none" :title="t('button.toggle_dark')" @click="toggleDark">
     <div class="dark:i-carbon-moon i-carbon-sun" />
   </button>
 </template>

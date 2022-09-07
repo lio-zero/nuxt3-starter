@@ -16,7 +16,7 @@ export default defineNuxtConfig({
           content: 'Nuxt 3 Starter',
         },
       ],
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+      link: [{ rel: 'icon', type: 'image/png', href: '/nuxt.png' }],
     },
   },
   modules: [
@@ -28,8 +28,8 @@ export default defineNuxtConfig({
       // https://i18n.nuxtjs.org/
       {
         locales: [
-          { code: 'en', iso: 'en-US', file: 'en.json' },
-          { code: 'zh', iso: 'zh-CN', file: 'zh-CN.json' },
+          { code: 'en', iso: 'en-US', file: 'en.yml' },
+          { code: 'zh', iso: 'zh-CN', file: 'zh-CN.yml' },
         ],
         defaultLocale: 'en',
         langDir: 'locales/',
@@ -46,6 +46,7 @@ export default defineNuxtConfig({
   components: true,
   experimental: {
     reactivityTransform: true,
+    viteNode: false,
   },
   css: [
     '~/styles/main.scss',

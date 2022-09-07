@@ -1,21 +1,12 @@
 html,
 body,
-#app {
-  height: 100%;
+#__nuxt {
+  height: 100vh;
   margin: 0;
   padding: 0;
 }
 
 html.dark {
-  background: #121212;
-  color-scheme: dark;
-}
-
-.dark .nuxt-logo svg {
-  color: #00dc82 !important;
-}
-
-.dark .bg-gray-100 {
-  background-color: rgba(37,84,97, 1) !important;
-  color: rgba(0,220,130, 1);
+  background: #222;
+  color: white;
 }

@@ -1,6 +1,4 @@
 <script lang="ts" setup>
-import { useLang } from '../composables/useLang'
-
 const { t, locale, availableLocales } = useLang()
 
 const toggleLocales = () => {
@@ -10,7 +8,7 @@ const toggleLocales = () => {
 </script>
 
 <template>
-  <button class="icon-btn !outline-none mx-2" :title="t('toggle_langs')" @click="toggleLocales()">
+  <button class="!outline-none" :title="t('button.toggle_langs')" @click="toggleLocales()">
     <div i-carbon-language />
   </button>
 </template>
