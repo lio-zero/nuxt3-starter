@@ -46,7 +46,9 @@ export default defineNuxtConfig({
   components: true,
   experimental: {
     reactivityTransform: true,
-    viteNode: false,
+  },
+  vite: {
+    devBundler: 'vite-node',
   },
   css: [
     '~/styles/main.scss',
