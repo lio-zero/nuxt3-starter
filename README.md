@@ -6,6 +6,8 @@
 
 First, learn [how Nuxt 3 works](https://v3.nuxtjs.org/guide/concepts/).
 
+> Tips: @nuxtjs/i18n is unstable, the project is not working for the time being, if you need an i18N replacement, you can use @intlify/nuxt3
+>
 > reference: [vitesse-nuxt3](https://github.com/antfu/vitesse-nuxt3).
 
 ## Preview
