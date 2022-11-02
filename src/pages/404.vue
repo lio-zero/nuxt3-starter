@@ -10,7 +10,12 @@ const { t } = useLang()
     </div>
     <div>{{ t('not-found') }}</div>
     <div>
-      <button btn text-sm m="3 t8" @click="router.back()">
+      <button
+        btn
+        text-sm
+        m="3 t8"
+        @click="router.back()"
+      >
         {{ t('button.back') }}
       </button>
     </div>

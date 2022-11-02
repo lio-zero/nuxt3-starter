@@ -4,9 +4,20 @@ const { t } = useLang()
 
 <template>
   <div>
-    <div mb-6 inline-flex text-2xl font-300 cursor-default>
+    <div
+      mb-6
+      inline-flex
+      text-2xl
+      font-300
+      cursor-default
+    >
       <div flex flex-col children:mx-auto>
-        <img w-18 h-18 inline-block src="/assets/nuxt.png">
+        <img
+          w-18
+          h-18
+          inline-block
+          src="/assets/nuxt.png"
+        >
         <span text-green5 mt--2>Nuxt 3</span>
       </div>
       <div
@@ -18,13 +29,22 @@ const { t } = useLang()
         i-carbon-add
       />
       <div flex flex-col children:mx-auto>
-        <img w-18 h-18 inline-block src="/assets/vite.png">
-        <span text-purple5 mt--2>Vite</span>
+        <img
+          w-18
+          h-18
+          inline-block
+          src="/assets/vite.png"
+        >
+        <span text-purple5 mt--2>
+          Vite
+        </span>
       </div>
     </div>
 
     <p>
-      <em text-sm opacity-75>{{ t('intro.desc') }}</em>
+      <em text-sm opacity-75>
+        {{ t('intro.desc') }}
+      </em>
     </p>
 
     <InputEntry />

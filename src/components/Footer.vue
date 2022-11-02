@@ -12,7 +12,12 @@ const { t } = useLang()
   >
     <NuxtLink i-carbon-campsite to="/" :title="t('button.home')" />
 
-    <a i-carbon-logo-github href="https://github.com/lio-zero/nuxt3-starter" title="GitHub" target="_blank" />
+    <a
+      i-carbon-logo-github
+      href="https://github.com/lio-zero/nuxt3-starter"
+      title="GitHub"
+      target="_blank"
+    />
 
     <DarkToggle />
 
