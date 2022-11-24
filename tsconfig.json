@@ -5,13 +5,10 @@
   "compilerOptions": {
     "strict": true,
     "types": [
+      "@nuxt/types",
       "@nuxtjs/i18n",
       "@pinia/nuxt",
       "@vueuse/nuxt"
     ]
   },
-  "exclude": [
-    "dist",
-    "node_modules"
-  ]
 }

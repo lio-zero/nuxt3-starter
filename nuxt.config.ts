@@ -1,5 +1,3 @@
-import { defineNuxtConfig } from 'nuxt'
-
 // Nuxt 2 Migrate to Nuxt 3：https://v3.nuxtjs.org/migration/configuration
 // Nuxt Configuration file：https://v3.nuxtjs.org/guide/directory-structure/nuxt.config
 export default defineNuxtConfig({
@@ -24,36 +22,40 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@pinia/nuxt',
     '@nuxtjs/color-mode',
-    ['@nuxtjs/i18n',
-      // https://i18n.nuxtjs.org/
-      {
-        locales: [
-          { code: 'en', iso: 'en-US', file: 'en.yml' },
-          { code: 'zh', iso: 'zh-CN', file: 'zh-CN.yml' },
-        ],
-        defaultLocale: 'en',
-        langDir: 'locales/',
-      },
-    ],
+    '@nuxtjs/i18n',
   ],
   typescript: {
-    // https://v3.nuxtjs.org/api/configuration/nuxt.config#shim
     shim: false,
   },
-  colorMode: {
-    classSuffix: '',
-  },
-  components: true,
   experimental: {
     reactivityTransform: true,
-  },
-  vite: {
-    devBundler: 'vite-node',
+    inlineSSRStyles: false,
   },
   css: [
     '~/styles/main.scss',
+    '@unocss/reset/tailwind.css',
   ],
-  unocss: {
-    preflight: true,
+  colorMode: {
+    classSuffix: '',
+  },
+  // https://i18n.nuxtjs.org/
+  i18n: {
+    locales: [
+      { code: 'en', file: 'en.json' },
+      { code: 'zh', file: 'zh-CN.json' },
+    ],
+    lazy: true,
+    langDir: 'locales/',
+    defaultLocale: 'zh',
+    strategy: 'prefix_except_default',
+    detectBrowserLanguage: {
+      useCookie: true,
+      redirectOn: 'root',
+    },
+    vueI18n: {
+      legacy: false,
+      locale: 'zh',
+      fallbackLocale: 'zh',
+    },
   },
 })

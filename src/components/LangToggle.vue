@@ -1,14 +1,23 @@
 <script setup lang="ts">
-const { t, locale, availableLocales } = useLang()
+import { availableLocales } from '~/locales/availableLocales'
 
-const toggleLocales = () => {
-  const locales = availableLocales
-  locale.value = locales[(locales.indexOf(locale.value) + 1) % locales.length]
-}
+const { t, locale } = useLang()
+
+const switchLocalePath = useSwitchLocalePath()
+
+const local = computed(() => {
+  return locale.value
+})
 </script>
 
 <template>
-  <button class="!outline-none" :title="t('button.toggle_langs')" @click="toggleLocales()">
+  <nuxt-link
+    v-for="item in availableLocales"
+    :key="item.iso"
+    :to="switchLocalePath(item.iso)"
+    class="!outline-none"
+    :title="t('button.toggle_langs')"
+  >
     <div i-carbon-language />
-  </button>
+  </nuxt-link>
 </template>

@@ -1,0 +1,15 @@
+{
+  "button": {
+    "back": "返回",
+    "go": "确定",
+    "home": "首页",
+    "toggle_dark": "切换深色模式",
+    "toggle_langs": "切换语言"
+  },
+  "intro": {
+    "desc": "更好的 Nuxt 3 入门模板",
+    "hi": "你好，{name}",
+    "whats_your_name": "输入你的名字",
+    "not_found": "未找到页面"
+  }
+}

@@ -13,7 +13,7 @@ const go = () => {
     <input
       id="input"
       v-model="name"
-      :placeholder="$t('intro.whats-your-name')"
+      :placeholder="t('intro.whats_your_name')"
       type="text"
       autocomplete="off"
       p="x-4 y-2"

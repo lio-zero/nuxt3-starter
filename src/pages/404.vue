@@ -8,7 +8,7 @@ const { t } = useLang()
     <div text-4xl>
       <div i-carbon-warning inline-block />
     </div>
-    <div>{{ t('not-found') }}</div>
+    <div>{{ t('not_found') }}</div>
     <div>
       <button
         btn

@@ -16,7 +16,7 @@ const { t } = useLang()
           w-18
           h-18
           inline-block
-          src="/assets/nuxt.png"
+          src="~/assets/nuxt.png"
         >
         <span text-green5 mt--2>Nuxt 3</span>
       </div>
@@ -33,7 +33,7 @@ const { t } = useLang()
           w-18
           h-18
           inline-block
-          src="/assets/vite.png"
+          src="~/assets/vite.png"
         >
         <span text-purple5 mt--2>
           Vite
